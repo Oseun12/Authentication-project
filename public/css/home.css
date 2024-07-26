@@ -1,0 +1,44 @@
+body {
+    background-image: url(/css/images/360_F_506010793_EFKlTdJydEHApKTHJK5x5EqHojmYUjuK.jpg);
+}
+
+nav {
+    background-color: rgba(61, 64, 100, 0.8);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 50px;
+
+}
+nav a {
+    color: rgb(238, 240, 241, 0.8);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.media img {
+    width: 800px;
+    margin-top: 20px;
+}
+
+h1 {
+    /* background-color: rgb(4, 31, 90); */
+    margin-top: 50px;
+    color: rgb(250, 248, 248, 0.6);
+    padding: 20px; 
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    background-color: rgb(4, 31, 90);
+    margin-top: 10px;
+    color: white;
+    padding: 20px; 
+    border-radius: 10px;
+    display: inline-block;
+    white-space: normal;
+    max-width: 50px;
+}
