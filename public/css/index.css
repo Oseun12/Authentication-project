@@ -1,0 +1,74 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-color: #f4f4f4; */
+    background-image: url(/css/images/360_F_506010793_EFKlTdJydEHApKTHJK5x5EqHojmYUjuK.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(61, 64, 100, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(199, 189, 189, 0.1);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom:25px;
+    color: #ccc;
+    font-size: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 50%;
+    padding: 5px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+    color: aliceblue;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+
+
+
