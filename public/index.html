@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Signup</title>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
 </head>
 <body>
     <div class="container">
         <h2>Signup</h2>
         <form id="signup-form">
             <label for="username">Username</label>
-            <input type="text" id="username" name="username" required>
+            <input type="text" id="username" name="username" required autocomplete="username">
 
             <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password" name="password" required autocomplete="new-password">
 
             <label for="role">Role</label>
             <input type="text" id="role" name="role" required>
@@ -24,6 +25,59 @@
         <p>Already have an account? <a href="login.html">Login</a></p>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="/script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sonner-js@0.0.3/dist/sonner.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sonner-js@0.0.3/dist/min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Signup</h2>
+        <form id="signup-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required autocomplete="username">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required autocomplete="new-password">
+
+            <label for="role">Role</label>
+            <input type="text" id="role" name="role" required>
+
+            <button type="submit">Signup</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/sonner@1.0.0/dist/index.umd.js"></script> -->
+    <script src="/script.js"></script>
+</body>
+</html> -->

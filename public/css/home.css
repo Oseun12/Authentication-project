@@ -42,3 +42,9 @@ p {
     white-space: normal;
     max-width: 50px;
 }
+
+@media (min-width: 320px) {
+    .media img {
+        max-width: 400px;
+    }
+}

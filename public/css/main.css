@@ -37,16 +37,17 @@ label {
 }
 
 input[type="text"], input[type="password"] {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 button {
-    width: 50%;
-    padding: 5px;
+    width: 100%;
+    padding: 10px;
     background-color: #007BFF;
     border: none;
     border-radius: 5px;
@@ -69,6 +70,24 @@ a {
     text-decoration: none;
 }
 
+@media (min-width: 320px) {
+    .container {
+        width: 70%; /* Adjust the width to be more flexible */
+        height: auto; /* Let the height adjust to the content */
+        padding: 15px;
+    }
 
+    h2 {
+        font-size: 24px; /* Adjust the font size for smaller screens */
+    }
 
+    label {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+        margin-bottom: 15px;
+    }
 
+    button {
+        font-size: 14px; /* Adjust the font size for smaller screens */
+        padding: 8px;
+    }
+}
